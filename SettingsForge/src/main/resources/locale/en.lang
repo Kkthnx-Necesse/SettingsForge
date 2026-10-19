@@ -1,0 +1,10 @@
+[settingsui]
+kkthnx.settingsforge.page=Mod Settings
+kkthnx.settingsforge.title=SettingsForge
+kkthnx.settingsforge.section.demo=Demo
+kkthnx.settingsforge.demoToggle=Demo checkbox
+kkthnx.settingsforge.demoSlider=Demo slider
+kkthnx.settingsforge.demoChoice=Demo dropdown
+kkthnx.settingsforge.demoChoice.small=Small
+kkthnx.settingsforge.demoChoice.medium=Medium
+kkthnx.settingsforge.demoChoice.large=Large
