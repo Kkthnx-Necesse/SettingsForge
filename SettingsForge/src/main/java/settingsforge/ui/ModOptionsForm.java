@@ -102,6 +102,8 @@ public class ModOptionsForm extends Form {
 
     private void addBoolean(FormFlow flow, int width, GameMessage label, BooleanOption option) {
         FormLocalCheckBox box = new FormLocalCheckBox(label, 10, 0, option.get(), width);
+        // Without a click listener the game ignores clicks on a checkbox unless this is set
+        box.handleClicksIfNoEventHandlers = true;
         content.addComponent(flow.nextY(box, 8));
         commits.add(() -> option.set(box.checked));
     }
