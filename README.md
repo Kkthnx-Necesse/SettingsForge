@@ -1,5 +1,9 @@
 # SettingsForge (Client-Side)
 
+<p align="center">
+  <img width="256" height="256" alt="preview" src="SettingsForge/src/main/resources/preview.png" />
+</p>
+
 A settings library for Necesse mods. Necesse has no settings screen for mods, so every mod ends up with a key bind or a config file. SettingsForge adds a **Mod Settings** page to the game's Settings screen, and a small API any mod can use to put checkboxes, sliders and dropdowns on it.
 
 Values are saved by the game itself through its normal mod settings (`ModSettings`), together with the rest of the client settings. There is no extra file format.
