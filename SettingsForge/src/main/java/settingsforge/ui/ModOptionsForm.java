@@ -108,6 +108,8 @@ public class ModOptionsForm extends Form {
 
     private void addInt(FormFlow flow, int width, GameMessage label, IntOption option) {
         FormLocalSlider slider = new FormLocalSlider(label, 10, 0, option.get(), option.min, option.max, width);
+        // The default shows the position within the range as a percent, which is wrong for ranges like 50 to 200
+        slider.drawValueInPercent = false;
         content.addComponent(flow.nextY(slider, 10));
         commits.add(() -> option.set(slider.getValue()));
     }
