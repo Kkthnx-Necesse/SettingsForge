@@ -16,7 +16,7 @@ Install it like any mod. It does nothing on its own except show a demo section. 
 
 Client-side only. Servers do not need it. Built for Necesse **1.3.3**.
 
-If a game update changes the Settings screen in a way the mod cannot handle, the Mod Settings button simply does not appear and one line is written to the log. The game keeps working.
+If a game update changes the Settings screen in a way the mod cannot handle, the Mod Settings button simply does not appear and the reason is written to the log. The game keeps working.
 
 ---
 
